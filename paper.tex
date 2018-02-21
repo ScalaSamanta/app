@@ -238,49 +238,20 @@ Text for this section.
 %%%%%%%%%%%%%%%%
 %% Background %%
 %%
-\section*{Content}
-Text and results for this section, as per the individual journal's instructions for authors. %\cite{koon,oreg,khar,zvai,xjon,schn,pond,smith,marg,hunn,advi,koha,mouse}
+\section*{Introduction}
+breve introduzione al problema, letteratura esistente, scopo del nostro lavoro
 
-\section*{Section title}
+\section*{Methods}
 Text for this section \ldots
-\subsection*{Sub-heading for section}
+\subsection*{motivazioni rehab}
+Kapandji test 
+\subsection*{parte hardware}
+\subsection*{parte software}
+
+\subsection*{Results}
 Text for this sub-heading \ldots
 \subsubsection*{Sub-sub heading for section}
 Text for this sub-sub-heading \ldots
-\paragraph*{Sub-sub-sub heading for section}
-Text for this sub-sub-sub-heading \ldots
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
-addition, we examine a common modeling assumption and note the
-importance of considering the tails of the extinction time $T_x$ in
-studies of escape dynamics.
-We will first consider the expected resistant population at $vT_x$ for
-some $v>0$, (and temporarily assume $\alpha=0$)
-%
-\[
- E \bigl[Z_1(vT_x) \bigr]= E
-\biggl[\mu T_x\int_0^{v\wedge
-1}Z_0(uT_x)
-\exp \bigl(\lambda_1T_x(v-u) \bigr)\,du \biggr].
-\]
-%
-If we assume that sensitive cells follow a deterministic decay
-$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
-$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
-estimate the expected value as
-%
-\begin{eqnarray}\label{eqexpmuts}
-E\bigl[Z_1(vT_x)\bigr] &=& \frac{\mu}{r}\log x
-\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du
-\nonumber\\
-&=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log x\int_0^{v\wedge
-1}x^{-u(1+{\lambda_1}/{r})}\,du
-\nonumber\\
-&=& \frac{\mu}{\lambda_1-\lambda_0}x^{1+{\lambda_1}/{r}v} \biggl(1-\exp \biggl[-(v\wedge1) \biggl(1+
-\frac{\lambda_1}{r}\biggr)\log x \biggr] \biggr).
-\end{eqnarray}
-%
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,khar,zvai,xjon,marg}).
-%\nocite{oreg,schn,pond,smith,marg,hunn,advi,koha,mouse}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -298,22 +269,7 @@ Thus we observe that this expected value is finite for all $v>0$ (also see \cite
 
 \section*{Acknowledgements}
   Text for this section \ldots
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                  The Bibliography                       %%
-%%                                                         %%
-%%  Bmc_mathpys.bst  will be used to                       %%
-%%  create a .BBL file for submission.                     %%
-%%  After submission of the .TEX file,                     %%
-%%  you will be prompted to submit your .BBL file.         %%
-%%                                                         %%
-%%                                                         %%
-%%  Note that the displayed Bibliography will not          %%
-%%  necessarily be rendered by Latex exactly as specified  %%
-%%  in the online Instructions for Authors.                %%
-%%                                                         %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% if your bibliography is in bibtex format, use those commands:
 \bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
 \bibliography{bmc_article}      % Bibliography file (usually '*.bib' )
 % for author-year bibliography (bmc-mathphys or spbasic)
