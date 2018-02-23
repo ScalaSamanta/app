@@ -176,15 +176,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{abstractbox}
-
+%
 \begin{abstract} % abstract
 \parttitle{First part title} %if any
 Text for this section.
-
+%
 \parttitle{Second part title} %if any
 Text for this section.
 \end{abstract}
-
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% The keywords begin here                  %%
@@ -192,24 +192,24 @@ Text for this section.
 %% Put each keyword in separate \kwd{}.     %%
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%
 \begin{keyword}
 \kwd{sample}
 \kwd{article}
 \kwd{author}
 \end{keyword}
-
+%
 % MSC classifications codes, if any
 %\begin{keyword}[class=AMS]
 %\kwd[Primary ]{}
 %\kwd{}
 %\kwd[; secondary ]{}
 %\end{keyword}
-
+%
 \end{abstractbox}
 %
 %\end{fmbox}% uncomment this for twcolumn layout
-
+%
 \end{frontmatter}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -237,10 +237,10 @@ Text for this section.
 
 %%%%%%%%%%%%%%%%
 %% Background %%
-%%
+%%%%%%%%%%%%%%%%
 \section*{Introduction}
 
-The opposite thumb allows humans to distinguish themselves from the others animal species. The morphological hand configuration and the kinematic coordination between all fingers have a crucial role in the manipulative abilities, precision-pinch grips as well as power “squeeze” grips*. Thumb, in particular, is the finger who has the larger representative area in the brain. It covers about 50\% of the interior cortical area related to the hand*. 
+The opposite thumb allows humans to distinguish themselves from the others animal species. The morphological hand configuration and the kinematic coordination between all fingers have a crucial role in the manipulative abilities, precision-pinch grips as well as power “squeeze” grips*. Thumb, in particular, is the finger who has the larger representative area in the brain. It covers about 50\% of the interior cortical area related to the hand*\cite{blank}. 
 
 
 
@@ -257,97 +257,4 @@ Text for this sub-heading \ldots
 \subsubsection*{Sub-sub heading for section}
 Text for this sub-sub-heading \ldots
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                          %%
-%% Backmatter begins here                   %%
-%%                                          %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{backmatter}
-
-\section*{Competing interests}
-  The authors declare that they have no competing interests.
-
-\section*{Author's contributions}
-    Text for this section \ldots
-
-\section*{Acknowledgements}
-  Text for this section \ldots
-
-\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
-\bibliography{bmc_article}      % Bibliography file (usually '*.bib' )
-% for author-year bibliography (bmc-mathphys or spbasic)
-% a) write to bib file (bmc-mathphys only)
-% @settings{label, options="nameyear"}
-% b) uncomment next line
-%\nocite{label}
-
-% or include bibliography directly:
-% \begin{thebibliography}
-% \bibitem{b1}
-% \end{thebibliography}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                               %%
-%% Figures                       %%
-%%                               %%
-%% NB: this is for captions and  %%
-%% Titles. All graphics must be  %%
-%% submitted separately and NOT  %%
-%% included in the Tex document  %%
-%%                               %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%
-%% Do not use \listoffigures as most will included as separate files
-
-\section*{Figures}
-  \begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      A short description of the figure content
-      should go here.}
-      \end{figure}
-
-\begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      Figure legend text.}
-      \end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                               %%
-%% Tables                        %%
-%%                               %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%% Use of \listoftables is discouraged.
-%%
-\section*{Tables}
-\begin{table}[h!]
-\caption{Sample table title. This is where the description of the table should go.}
-      \begin{tabular}{cccc}
-        \hline
-           & B1  &B2   & B3\\ \hline
-        A1 & 0.1 & 0.2 & 0.3\\
-        A2 & ... & ..  & .\\
-        A3 & ..  & .   & .\\ \hline
-      \end{tabular}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                               %%
-%% Additional Files              %%
-%%                               %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section*{Additional Files}
-  \subsection*{Additional file 1 --- Sample additional file title}
-    Additional file descriptions text (including details of how to
-    view the file, if it is in a non-standard format or the file extension).  This might
-    refer to a multi-page table or a figure.
-
-  \subsection*{Additional file 2 --- Sample additional file title}
-    Additional file descriptions text.
-
-
-\end{backmatter}
 \end{document}
