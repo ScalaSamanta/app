@@ -116,14 +116,29 @@
 \author[
    addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
    corref={aff1},                       % id of corresponding address, if any
-   noteref={n1},                        % id's of article notes, if any
-   email={jane.e.doe@cambridge.co.uk}   % email address
-]{\inits{JE}\fnm{Jane E} \snm{Doe}}
+   %noteref={n1},                        % id's of article notes, if any
+   email={pompili@diism.unisi.it}   % email address
+]{\inits{GP}\fnm{Giulia} \snm{Pompili}}
+%
 \author[
    addressref={aff1,aff2},
-   email={john.RS.Smith@cambridge.co.uk}
-]{\inits{JRS}\fnm{John RS} \snm{Smith}}
-
+   email={lisini@diism.unisi.it}
+]{\inits{TLB}\fnm{Tommaso} \snm{Lisini Baldi}}
+%
+\author[
+   addressref={aff1,aff2},
+   email={scal@diism.unisi.it}
+]{\inits{SC}\fnm{Samanta} \snm{Scala}}
+%
+\author[
+   addressref={aff1},
+   email={meli@diism.unisi.it}
+]{\inits{LM}\fnm{Leonardo} \snm{Meli}}
+%
+\author[
+   addressref={aff1,aff2},
+   email={prattichizzo@diism.unisi.it}
+]{\inits{DP}\fnm{Domenico} \snm{Prattichizzo}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter the authors' addresses here        %%
@@ -134,18 +149,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \address[id=aff1]{%                           % unique id
-  \orgname{Department of Zoology, Cambridge}, % university, etc
-  \street{Waterloo Road},                     %
-  %\postcode{}                                % post or zip code
-  \city{London},                              % city
-  \cny{UK}                                    % country
+  \orgname{Department of Information Engineering and Mathematics, University of Siena}, % university, etc
+ \street{via Roma, 56},                     %
+  %\postcode{53100}                                % post or zip code
+ \city{Siena},                              % city
+ \cny{Italy}                                 % country
 }
+  
 \address[id=aff2]{%
-  \orgname{Marine Ecology Department, Institute of Marine Sciences Kiel},
-  \street{D\"{u}sternbrooker Weg 20},
-  \postcode{24105}
-  \city{Kiel},
-  \cny{Germany}
+\orgname{Department of Advanced Robotics, Istituto Italiano di Tecnologia},
+ \street{Via Morego, 30},
+  %\postcode{16163}
+ \city{Genova},
+ \cny{Italy}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -159,7 +175,7 @@
 
 \begin{artnotes}
 %\note{Sample of title note}     % note to the article
-\note[id=n1]{Equal contributor} % note, connected to author
+%\note[id=aff1]{Equal contributor} % note, connected to author
 \end{artnotes}
 
 \end{fmbox}% comment this for two column layout
