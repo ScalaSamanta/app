@@ -121,12 +121,12 @@
 ]{\inits{GP}\fnm{Giulia} \snm{Pompili}}
 %
 \author[
-   addressref={unisi,aff2},%
+   addressref={unisi,iit},%
    email={lisini@diism.unisi.it}%
 ]{\inits{TLB}\fnm{Tommaso} \snm{Lisini Baldi}}
 %
 \author[
-   addressref={unisi,aff2},
+   addressref={unisi,iit},
    email={scal@diism.unisi.it}
 ]{\inits{SC}\fnm{Samanta} \snm{Scala}}
 %
@@ -136,9 +136,9 @@
 ]{\inits{LM}\fnm{Leonardo} \snm{Meli}}
 %
 \author[
-   addressref={unisi,aff2},
+   addressref={unisi,iit},
    email={prattichizzo@diism.unisi.it}
-]{\inits{DP}\fnm{Domenico}\snm{Prattichizzo}}
+]{\inits{DP}\fnm{Domenico} \snm{Prattichizzo}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter the authors' addresses here        %%
@@ -151,15 +151,15 @@
 \address[id=unisi]{%                           % unique id
   \orgname{Department of Information Engineering and Mathematics, University of Siena}, % university, etc
  \street{via Roma, 56},                     %
-  %\postcode{53100}                                % post or zip code
+ \postcode{53100}                                % post or zip code
  \city{Siena},                              % city
  \cny{Italy}                                 % country
 }
   
-\address[id=aff2]{%
+\address[id=iit]{%
 \orgname{Department of Advanced Robotics, Istituto Italiano di Tecnologia},
  \street{Via Morego, 30},
-  %\postcode{16163}
+  \postcode{16163}
  \city{Genova},
  \cny{Italy}
 }
@@ -257,8 +257,7 @@ Text for this section.
 \section*{Introduction}
 
 The opposite thumb allows humans to distinguish themselves from the others animal species. The morphological hand configuration and the kinematic coordination between all fingers have a crucial role in the manipulative abilities, precision-pinch grips as well as power “squeeze” grips*. Thumb, in particular, is the finger who has the larger representative area in the brain. It covers about 50\% of the interior cortical area related to the hand *. 
-
-
+\cite{oreg}
 
 
 \section*{Methods}
@@ -273,4 +272,6 @@ Text for this sub-heading \ldots
 \subsubsection*{Sub-sub heading for section}
 Text for this sub-sub-heading \ldots
 
+\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
+\bibliography{biblio}      % Bibliography file (usually '*.bib' )
 \end{document}
