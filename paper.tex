@@ -75,7 +75,23 @@
 %\def\includegraphic{}
 %\def\includegraphics{}
 
+
+%%TOMMI
+%ricordati di scommentare le righe sopra!
 \usepackage{graphicx, subfigure}
+
+\newcommand{\ie}{\textit{i.e.}~}
+\newcommand{\iec}{\textit{i.e.},~}
+\newcommand{\eg}{\textit{e.g.}~}
+\newcommand{\egc}{\textit{e.g.},~}
+
+\newcommand{\eal}{\textit{et al.}~}
+\newcommand{\cfr}{cfr.~}
+
+\newcommand{\fig}{Fig.~}
+\newcommand{\figs}{Figs.~}
+
+
 
 
 %%% Put your definitions there:
@@ -271,13 +287,14 @@ Kapandji test
 In this section we present the proposed aid for rehabilitation, describing both the hardware component and the ad-hoc app developed for training and evaluating the hand mobility.
 \subsubsection*{parte hardware}
 The hardware part consist of a lycra glove, equipped with conductive bands to detect the thumbs contacts, and a tiny microcontroller in charge of indentifying the correspondent phalanx and send this information to the paired smartphone.
+As depicted in \fig\ref{FIG:glove} we sewed 14 conductive fabric patches into the glove. 
 
 \begin{figure}
+\label{FIG:glove}
 \includegraphics[width= 3 cm]{./fig/blank.jpg}
-
+\caption{Foto del guanto, magari subfig davanti e dietro}
 \end{figure}
 
-For what concerns the hardware, a lycra glove instrumented with a microcontroller
 
 
 \subsubsection*{parte software}
